@@ -224,8 +224,7 @@ img {
   background-color: #eeeeee;
 }
 
-.site-navigation .menu-active::after,
-.basket-navigation .menu-active::after {
+.site-navigation .menu-active::after {
   content: "";
 
   display: block;
