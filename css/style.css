@@ -518,6 +518,10 @@ img {
 
 /* catalog.html main */
 
+main {
+  display: flex;
+}
+
 .left-panel {
   background-color: #ffffff;
 }
@@ -614,6 +618,11 @@ img {
   background-color: #ffffff;
 }
 
+.catalog-sort {
+  display: flex;
+  justify-content: space-between;
+}
+
 .catalog-sort h2 {
   font-weight: 700;
   font-size: 18px;
@@ -623,6 +632,8 @@ img {
 
 .catalog-sort-list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .catalog-sort-item a {
