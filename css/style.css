@@ -660,6 +660,7 @@ main {
 
 .catalog-cards {
   background-color: #ffffff;
+  display: flex;
 }
 
 .catalog-cards {
@@ -684,6 +685,8 @@ main {
 
 .pagination-list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pagination-item {
